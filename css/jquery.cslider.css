@@ -78,7 +78,7 @@
 .da-slide h4{
     color: #181A1C;
     text-transform: uppercase;
-      white-space: nowrap;
+    white-space: normal;
     z-index: 10;
 }
 .da-slide h2 {
@@ -97,7 +97,7 @@
 .da-slide p {
     width: 45%;
     padding:0px;
-    top: 230px;
+    top: 280px;
     color: #fff;
     height: 90px;
     overflow: hidden;
