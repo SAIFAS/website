@@ -49,6 +49,8 @@
 
     --contact-icon: #fff;
     --contact-icon-accent: #181A1C;
+    --social-icon: #fff;
+    --social-icon-accent: #fdc501;
 }
 
 
@@ -337,7 +339,7 @@ p {
 /*
 2.4 Socail icons
 ************/
- .social {
+.social {
     list-style: none;
     float: none;
     position: relative;
@@ -355,10 +357,10 @@ p {
     padding: 0;
     width: 32px;
     height: 32px;
-    color: var(--primary);
+    color: var(--social-icon);
 }
 .social li a:hover {
-    color: var(--background);
+    color: var(--social-icon-accent);
 }
 /*
 3. Sections
@@ -739,11 +741,16 @@ p {
     color: #fff;
 }
 .contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 .contact-info p{
      font-weight: normal;
+     margin: 0;
 }
 .contact-info .icon {
     margin:10px auto;
@@ -813,7 +820,7 @@ p {
     width: 60%;
     margin: 0 auto;
     padding: 15px;
-    color: var(--background);
+    color: #fff;
 }
 .black {
     color: var(--background);
@@ -821,9 +828,12 @@ p {
 /*
 3.8 Footer
 ********************************************************************/
- .footer {
+.footer {
+    display: flex;
+    flex-direction: row;
     background: var(--background);
     text-align: center;
+    padding: 64px 0px;
 }
 .footer > p {
     color: #fff;
@@ -920,4 +930,15 @@ p {
     .price-column, .testimonial {
         margin-top: 30px;
     }
+}
+
+.social-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 22px;
+}
+.social-block  p {
+    font-weight: normal;
 }
