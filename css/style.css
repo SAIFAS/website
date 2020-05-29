@@ -57,9 +57,11 @@
 body {
     font-family:'Roboto', sans-serif;
     color: var(--on-background);
-    line-height: 1.2em;
+    /* line-height: 1.2em; */
     font-size: 17px;
     line-height: 20px;
+    background-color: var(--background);
+    height: 100%;
 }
 a {
     color: var(--background);
@@ -145,6 +147,18 @@ p {
     background: var(--primary);
     color: #000;
 }
+#service .nav-pills > li > a {
+  color: var(--on-background);
+  border: 1px solid var(--on-background);
+}
+#service .nav-pills > li > a:hover,
+#service .nav-pills > .active > a,
+#service .nav-pills > .active > a:hover,
+#service .nav-pills > .active > a:focus {
+    background: var(--primary);
+    color: #000;
+}
+
 /******
 2. Layout
 **********************************************************************/
@@ -303,6 +317,10 @@ p {
     -ms-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
 }
+.thumbnail h2 {
+  position: relative;
+  z-index: 4;
+}
 .thumbnail h3,
 .thumbnail p {
     margin: 0;
@@ -411,7 +429,7 @@ p {
 .secondary-section h1, .secondary-section .title p {
     color: var(--background);
 }
-/* Third section use bacground image */
+/* Third section use background image */
 .third-section {
     padding-bottom: 70px;
     background: var(--background) url(../images/brand-bg.png) no-repeat center;
@@ -525,8 +543,17 @@ p {
 .team .thumbnail .mask h2 {
     margin-top: 20%;
 }
-.team .thumbnail .mask, .team .thumbnail .mask h3, .team .thumbnail .mask p, .team .thumbnail:hover h3, .team .thumbnail:hover .social a:hover {
+.team .thumbnail .mask,
+.team .thumbnail .mask h2,
+.team .thumbnail .mask h3,
+.team .thumbnail .mask p,
+.team .thumbnail:hover h2,
+.team .thumbnail:hover h3,
+.team .thumbnail:hover .social a:hover {
     color: #181A17;
+}
+.team .thumbnail .mask img {
+  z-index: -1;
 }
 .about-text {
     margin-top: 30px;
