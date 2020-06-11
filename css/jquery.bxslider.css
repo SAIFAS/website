@@ -21,11 +21,11 @@
 	*zoom: 1;
 }
 
-.bx-wrapper ul{
+.bx-wrapper ul {
   margin: 0;
 }
 
-.bx-wrapper .circle-border{
+.bx-wrapper .circle-border {
   border: 3px solid #cacaca;
 }
 
@@ -38,7 +38,7 @@
   opacity:1;
 }
 
-.bxslider{
+.bxslider {
   height:100%;
 }
 
@@ -48,7 +48,7 @@
   margin:10px;
 }
 
-.bx-viewport{
+.bx-viewport {
   opacity:1;
 }
 

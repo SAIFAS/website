@@ -56,8 +56,8 @@
                             <li>
                                 <a href="index.html">Home</a>
                             </li>
-                            <li class="active">
-                                <a href="#">Services</a>
+                            <li>
+                                <a href="index.html#services">Services</a>
                             </li>
                             <li>
                                 <a href="index.html#portfolio">Portfolio</a>
@@ -65,8 +65,8 @@
                             <li>
                                 <a href="index.html#about">About</a>
                             </li>
-                            <li>
-                                <a href="index.html#clients">Clients</a>
+                            <li class="active">
+                                <a href="#">Clients</a>
                             </li>
                             <li>
                                 <a href="index.html#price">Price</a>
@@ -82,139 +82,112 @@
         </div>
 
         <!-- Development -->
-        <!-- Service section start -->
-        <div class="section primary-section team" id="service">
-            <div class="container">
-                <!-- Start title section -->
-                <div class="title">
-                    <h1>Our services</h1>
-                    <!-- Section's title goes here -->
-                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
-                    <!--Simple description for section goes here. -->
+        <!-- Client section start -->
+        <div id="clients">
+            <div class="section primary-section">
+                <!-- <div class="triangle"></div> -->
+                <div class="container">
+                    <div class="title">
+                        <h1>What Client Say?</h1>
+                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    </div>
+                    <div class="row">
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"I've worked too hard and too long to let anything stand in the way of my goals. I will not let my teammates down and I will not let myself down."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Client1.png" class="centered" alt="client 1">
+                                    <strong>John Doe
+                                        <small>Client</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"In motivating people, you've got to engage their minds and their hearts. I motivate people, I hope, by example - and perhaps by excitement, by having productive ideas to make others feel involved."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Client2.png" class="centered" alt="client 2">
+                                    <strong>John Doe
+                                        <small>Client</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <img src="images/Client3.png" class="centered" alt="client 3">
+                                    <strong>John Doe
+                                        <small>Client</small>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="testimonial-text">
+                        "Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away"
+                    </p>
                 </div>
-
-                <ul class="nav nav-pills">
-                    <li class="filter active" data-filter="development">
-                        <a href="#noAction">Development</a>
-                    </li>
-                    <li class="filter" data-filter="consulting">
-                        <a href="#noAction">IT consulting</a>
-                    </li>
-                    <li class="filter" data-filter="technology">
-                        <a href="#noAction">New technology</a>
-                    </li>
-                </ul>
-                <!-- Start details for portfolio project 1 -->
-                <div id="single-project">
-                    <ul id="portfolio-grid" class="thumbnails row" style="display: flex; flex-wrap: wrap;">
-                        <li class="span4 mix development">
-                            <div class="thumbnail">
-                                <h2>Mobile development</h2>
-                                <p>Native and hybrid app development</p>
-                                <h3>from $40 per hour</h3>
-                                <!-- <h4>John Doe</h4> -->
-                                <div class="mask">
-                                    <img src="images/Team1.png" alt="team 1">
-                                </div>
-                                <div class="mask">
-                                </div>
-                            </div>
+            </div>
+        </div>
+        <div class="section third-section">
+            <div class="container centered">
+                <div class="sub-section">
+                    <div class="title clearfix">
+                        <div class="pull-left">
+                            <h3>Our Clients</h3>
+                        </div>
+                        <ul class="client-nav pull-right">
+                            <li id="client-prev"></li>
+                            <li id="client-next"></li>
+                        </ul>
+                    </div>
+                    <ul class="row client-slider" id="clint-slider">
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo01.png" alt="client logo 1">
+                            </a>
                         </li>
-                        <li class="span4 mix development">
-                            <div class="thumbnail">
-                                <h2>Web development</h2>
-                                <p>Backend and frontend development</p>
-                                <h3>from $40 per hour</h3>
-                                <!-- <h4>John Doe</h4> -->
-                                <div class="mask">
-                                  <img src="images/Team2.png" alt="team 1">
-                                </div>
-                                <div class="mask">
-                                </div>
-                            </div>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 2">
+                            </a>
                         </li>
-                        <li class="span4 mix development">
-                            <div class="thumbnail">
-                                <h2>Design</h2>
-                                <p>UX strategy, interface design, mind mapping</p>
-                                <h3>from $40 per hour</h3>
-                                <!-- <h4>John Doe</h4> -->
-                                <div class="mask">
-                                  <img src="images/Team3.png" alt="team 1">
-                                </div>
-                                <div class="mask">
-                                </div>
-                            </div>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo03.png" alt="client logo 3">
+                            </a>
                         </li>
-                        <li class="span4 mix development">
-                            <div class="thumbnail">
-                                <h2>DevOps</h2>
-                                <p>Development environment automation</p>
-                                <h3>$50 per hour on average</h3>
-                                <!-- <h4>John Doe</h4> -->
-                                <div class="mask">
-                                  <img src="images/Team3.png" alt="team 1">
-                                </div>
-                                <div class="mask">
-                                </div>
-                            </div>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 4">
+                            </a>
                         </li>
-                        <li class="span4 mix development">
-                            <div class="thumbnail">
-                                <h2>QA</h2>
-                                <p>Manual and automated testing</p>
-                                <h3>from $20 per hour</h3>
-                                <!-- <h4>John Doe</h4> -->
-                                <div class="mask">
-                                    <img src="images/Team3.png" alt="team 1">
-                                </div>
-                                <div class="mask">
-                                </div>
-                            </div>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo05.png" alt="client logo 5">
+                            </a>
                         </li>
-
-                        <li class="span4 mix consulting">
-                            <div class="thumbnail">
-                                <h2>IT audit</h2>
-                                <p>Project risks planning and management</p>
-                                <h3>from $40 per hour</h3>
-                                <div class="mask">
-                                    <img src="images/Team1.png" alt="team 1">
-                                </div>
-                                <div class="mask">
-                                </div>
-                            </div>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo02.png" alt="client logo 6">
+                            </a>
                         </li>
-                        <li class="span4 mix consulting">
-                            <div class="thumbnail">
-                                <h2>Architecture</h2>
-                                <p>Selecting architecture solution, integrating IT product into IT system</p>
-                                <h3>$50 per hour on average</h3>
-                                <div class="mask">
-                                    <img src="images/Team1.png" alt="team 1">
-                                </div>
-                                <div class="mask">
-                                </div>
-                            </div>
-                        </li>
-
-                        <li class="span4 mix technology">
-                          <div class="thumbnail">
-                              <h2>IT trends</h2>
-                              <p>AR/VR solutions development. Chatbots. Internet of things</p>
-                              <h3>from $40 per hour</h3>
-                              <div class="mask">
-                                  <img src="images/Team1.png" alt="team 1">
-                              </div>
-                              <div class="mask">
-                              </div>
-                          </div>
+                        <li>
+                            <a href="">
+                                <img src="images/clients/ClientLogo04.png" alt="client logo 7">
+                            </a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        <!-- Service section end -->
+        <!-- Clients section end -->
 
         <!-- Footer section start -->
         <div class="footer">
