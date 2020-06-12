@@ -43,7 +43,7 @@
     --primary: #fdc501;
     --primary-accent: #181A1C;
 
-    --primary-variant-1: black;
+    --primary-variant-1: #f7ebc0;
     --primary-variant-2: black;
 
     --on-primary: #181A1C;
@@ -57,6 +57,8 @@
     --contact-icon-accent: #181A1C;
     --social-icon: #fff;
     --social-icon-accent: #fdc501;
+
+    --primary-gradient: linear-gradient(0deg, var(--primary) 0%, var(--primary-variant-1) 100%);
 }
 
 body {
@@ -459,7 +461,7 @@ p {
     color: #FFF;
 }
 .secondary-section {
-    background: var(--primary);
+    background: var(--primary-gradient);
 }
 .secondary-section .title {
     border-bottom: 1px solid var(--background);
@@ -576,7 +578,7 @@ p {
     color: #fff;
 }
 .team .thumbnail .mask {
-    background: var(--primary);
+    background: var(--primary-gradient);
 }
 .team .thumbnail .mask h2 {
     margin-top: 20%;
@@ -660,7 +662,7 @@ p {
 }
 .testimonial p {
     color: var(--on-primary);
-    background: var(--primary);
+    background: var(--primary-gradient);
     padding: 15px;
     margin: 0;
 }
