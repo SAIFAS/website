@@ -493,9 +493,19 @@ p {
 3.1 Services
 ***************************************/
 .service{
-    margin-top: 20px;
+    /* margin-top: 20px; */
+
+    text-align: center;
+    background-color: var(--surface);
+    border-radius: 6px;
+    padding: 50px 10px 20px 10px;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(27,27,27,0.1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(27,27,27,0.1);
+    box-shadow: 0px 0px 15px 0px rgba(27,27,27,0.1);
+    height: 350px;
+    margin-bottom: 30px;
 }
- .service, .service h2 {
+.service h2 {
     padding-top: 15px;
 }
 .service p {
