@@ -144,7 +144,7 @@ p {
     margin: 10px 3px;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
-    border: 1px solid  var(--on-header-border);
+    border: 1px solid var(--header);
     box-shadow: none;
     font-size: 15px;
     text-shadow: none;
@@ -579,7 +579,6 @@ p {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     padding: 10px;
-    border: 1px solid #fff;
 }
 .team .thumbnail:hover .social {
     z-index: 5;
