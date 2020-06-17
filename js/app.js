@@ -314,29 +314,58 @@ Sand mail
     });
 
     //animate first team member
-    jQuery('#first-person').bind('inview', function (event, visible) {
+    jQuery('#person-1').bind('inview', function (event, visible) {
         if (visible == true) {
-            jQuery('#first-person').addClass("animated pulse");
+            jQuery('#person-1').addClass("animated pulse");
         } else {
-            jQuery('#first-person').removeClass("animated pulse");
+            jQuery('#person-1').removeClass("animated pulse");
         }
     });
 
     //animate sectond team member
-    jQuery('#second-person').bind('inview', function (event, visible) {
+    jQuery('#person-2').bind('inview', function (event, visible) {
         if (visible == true) {
-            jQuery('#second-person').addClass("animated pulse");
+            jQuery('#person-2').addClass("animated pulse");
         } else {
-            jQuery('#second-person').removeClass("animated pulse");
+            jQuery('#person-2').removeClass("animated pulse");
         }
     });
 
     //animate thrid team member
-    jQuery('#third-person').bind('inview', function (event, visible) {
+    jQuery('#person-3').bind('inview', function (event, visible) {
         if (visible == true) {
-            jQuery('#third-person').addClass("animated pulse");
+            jQuery('#person-3').addClass("animated pulse");
         } else {
-            jQuery('#third-person').removeClass("animated pulse");
+            jQuery('#person-3').removeClass("animated pulse");
+        }
+    });
+
+    jQuery('#person-4').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#person-4').addClass("animated pulse");
+        } else {
+            jQuery('#person-4').removeClass("animated pulse");
+        }
+    });
+    jQuery('#person-5').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#person-5').addClass("animated pulse");
+        } else {
+            jQuery('#person-5').removeClass("animated pulse");
+        }
+    });
+    jQuery('#person-6').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#person-6').addClass("animated pulse");
+        } else {
+            jQuery('#person-6').removeClass("animated pulse");
+        }
+    });
+    jQuery('#person-7').bind('inview', function (event, visible) {
+        if (visible == true) {
+            jQuery('#person-7').addClass("animated pulse");
+        } else {
+            jQuery('#person-7').removeClass("animated pulse");
         }
     });
 
