@@ -177,8 +177,8 @@
 
 				$cont.find(config.targetSelector).addClass('mix_all');
 				if (showOnLoadArray[0] == 'all') {
-					showOnLoadArray[0] = 'development',
-					config.showOnLoad = 'development';
+					showOnLoadArray[0] = 'mix_all',
+					config.showOnLoad = 'mix_all';
 				};
 
 				// FADE IN 'SHOWONLOAD'
