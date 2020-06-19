@@ -455,7 +455,7 @@ p {
     border-bottom: 1px solid #FFF;
 }
 .primary-section, .primary-section .title p, .primary-section h3 {
-    color: var(--primary);
+    color: var(--on-background);
 }
 .primary-section h1 {
     color: #FFF;
@@ -670,7 +670,7 @@ p {
 }
 .testimonial p {
     color: var(--on-primary);
-    background: var(--primary-gradient);
+    background: var(--primary);
     padding: 15px;
     margin: 0;
 }

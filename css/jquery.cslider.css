@@ -82,10 +82,18 @@
     z-index: 10;
 }
 .da-slide h2 {
-    font-size: 33px;
+    /*font-size: 33px;
     width: 50%;
     top: 120px;
-    font-weight: bold;
+    font-weight: bold;*/
+    color: white;
+    width: 80%;
+    top: 120px;
+    letter-spacing: -0.3rem;
+    line-height: 80px;
+    font-weight: 1000;
+    font-size: 90px;
+    text-transform: lowercase;
 }
 
 .da-slide h4{
