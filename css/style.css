@@ -1040,10 +1040,10 @@ p {
 	/* padding-top: 7.2rem; */
 	/* padding-bottom: 4.8rem; */
   /* padding-top: 85px; */
-  padding-bottom: 40px;
+  /* padding-bottom: 40px; */
 	text-align: center;
-  max-height: 560px;
-  overflow-y: auto;
+  /* max-height: 560px; */
+  /* overflow-y: auto; */
 }
 
 /* #stats .grid-row {
@@ -1099,6 +1099,14 @@ p {
 }
 #stats .title > p {
   color: var(--primary);
+}
+#stats .centered {
+  /* margin-bottom: 1.2rem; */
+  margin-bottom: 30px;
+}
+#stats .centered > p {
+  padding: 0;
+  font-size: 16px;
 }
 
 /* -------------------------------------------------------------------
