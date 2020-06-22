@@ -551,7 +551,10 @@ p {
     color: var(--primary);
     margin-top: 10px;
 }
-.project-info span, .project-title h3 {
+.project-title h3 {
+    color: #FFF;
+}
+.project-info span {
     color: var(--primary);
 }
 .project-info {
@@ -591,10 +594,10 @@ p {
     color: #fff;
 }
 .team .thumbnail .mask {
-    background: var(--primary-gradient);
+    background: var(--primary);
 }
 .team .thumbnail .mask h2 {
-    margin-top: 20%;
+    margin-top: 70%;
 }
 .team .thumbnail .mask,
 .team .thumbnail .mask h2,
