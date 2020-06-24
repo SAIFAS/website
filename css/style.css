@@ -1213,3 +1213,39 @@ p {
   background-color: var(--surface);
   border-radius: 50%;
 }
+
+#approach {
+
+}
+#approach svg{
+  fill: var(--primary);
+}
+
+#approach table {
+  width: 100%;
+}
+#approach td {
+  text-align: center;
+}
+
+#approach .circle-border img {
+  width: 150px;
+  height: 150px;
+}
+
+#approach .arrow-up {
+  width: 100px;
+  height: 100px;
+  margin-bottom: -80px;
+  transform: rotate(30deg);
+  z-index: 10;
+}
+
+#approach .arrow-down {
+  width: 100px;
+  height: 100px;
+  margin-top: -130px;
+  margin-bottom: 50px;
+  transform: rotate(-30deg);
+  z-index: 10;
+}
