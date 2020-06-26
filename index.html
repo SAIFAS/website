@@ -181,7 +181,7 @@
                 <div class="title">
                     <h2>Technologies</h2>
                 </div>
-                <div class="technologies">
+                <div id="technologies">
                   <div class="technology">
                     <div class="tech-icon">
                       <img src="images/logo.png" alt="Logo" />
@@ -1068,8 +1068,58 @@
             </div>
         </div>
 
-        <div id="approach" class="section primary-section">
+        <div class="section secondary-section">
             <!-- <div class="triangle"></div> -->
+            <div class="container centered">
+                <h1>Already have an idea and some examples?</h1>
+                <p class="large-text">You'll receive an estimate within 72 hours</p>
+                <a href="#" class="button" data-toggle="modal" data-target="#projectModalForm">Send request</a>
+
+                <div class="modal fade" id="projectModalForm" tabindex="-1" role="dialog" aria-labelledby="projectModalFormTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h2 class="modal-title" id="projectModalFormTitle">
+                          Want to create a product?
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </h2>
+                      </div>
+                      <div class="modal-body">
+                        <div class="input-group">
+                          <h4>Please fill this short form and we'll get in touch with you as soon as possible</h4>
+                          <h3>Tell us about your project</h3>
+                          <textarea class="form-control" aria-label="With textarea" placeholder="What kind of technology expertise do you need?"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="exampleFormControlFile1">Attach files</label>
+                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                        <div class="input-group">
+                          <h3>How can we get in touch with you?</h3>
+                          <input type="text" placeholder="Your name">
+                        </div>
+                        <div class="input-group">
+                          <input type="text" placeholder="Phone number">
+                        </div>
+                        <div class="input-group">
+                          <input type="email" placeholder="E-mail">
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="submit" class="button button-sp">Send request</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="approach" class="section primary-section">
+            <div class="triangle"></div>
             <div class="container centered">
               <div class="title">
                 <h1>Our approach</h1>
@@ -1188,6 +1238,7 @@
         <!-- Contact section start -->
         <div id="contact" class="contact">
             <div class="section secondary-section">
+                <div class="triangle"></div>
                 <div class="container">
                     <div class="title">
                         <h1>Contact Us</h1>

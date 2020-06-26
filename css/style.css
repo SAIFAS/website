@@ -80,6 +80,9 @@ a {
     color: var(--background);
     text-decoration: none;
 }
+a:focus {
+    text-decoration: none;
+}
 a:hover {
     color: var(--primary);
     text-decoration: none;
@@ -176,6 +179,7 @@ p {
     padding-right: 25px;
     color: var(--on-primary);
     border: 1px solid var(--on-primary-border);
+    border-radius: 6px;
 }
 .nav-pills > li > a:hover, .nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
     background: var(--header);
@@ -287,14 +291,16 @@ p {
 /*
 2.2 Buttons - There are buttons on a transparent background, primary and secondary color background.
 **********/
- .button, .button:visited, .button:focus {
+.button, .button:visited, .button:focus {
     display: inline-block;
     border: 1px solid  var(--on-primary-border);
     color: var(--on-primary);
-    background-color: transparent;
+    /* background-color: transparent; */
+    background-color: var(--primary);;
     padding: 15px 30px;
     font-size: 17px;
     line-height: auto;
+    border-radius: 8px;
 }
 .button:hover, .button:active{
     background-color: var(--background);
@@ -1153,7 +1159,7 @@ p {
 
 }
 
-.technologies {
+#technologies {
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -1163,7 +1169,7 @@ p {
   width: 100%;
 }
 
-.technology {
+#technologies .technology {
   padding-bottom: 32px;
   padding-left: 32px;
   padding-right: 32px;
@@ -1176,7 +1182,7 @@ p {
   align-items: center;
 }
 
-.technology .tech-label {
+#technologies .technology .tech-label {
   margin-top: 16px;
   font-size: 16px;
   white-space: nowrap;
@@ -1184,7 +1190,7 @@ p {
   /* color: var(--on-surface); */
 }
 
-.technology .tech-icon {
+#technologies .technology .tech-icon {
   width: 64px;
   height: 64px;
   display: flex;
@@ -1202,7 +1208,7 @@ p {
   box-shadow: 0px 0px 15px 0px var(--secondary-variant-1); */
 }
 
-.technology img {
+#technologies .technology img {
   width: 42px;
   height: 42px;
   display: flex;
@@ -1307,4 +1313,68 @@ p {
 		transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
 	}
 
+}
+
+.modal {
+  color: black;
+  width: auto;
+}
+/* .contact {
+   background: var(--primary);
+} */
+.modal h1, .modal h2, .modal h3, .modal h4, .modal h5, .modal h6, .modal p {
+   color: var(--on-primary);
+   text-align: left;
+}
+.modal h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal h4 {
+  margin-top: 40px;
+  /* margin-bottom: 30px; */
+}
+.modal h3 {
+  margin-top: 30px;
+}
+.modal textarea, .modal input[type="text"], .modal input[type="email"] {
+   padding: 10px;
+   line-height: 20px;
+   height: auto;
+}
+.modal input[type="text"], .modal input[type="email"], .modal input[type="password"] {
+  width: 95%;
+  margin-bottom: 30px;
+  padding: 10px;
+  line-height: 20px;
+  height: auto;
+}
+.modal textarea {
+   height: 120px;
+   width: 95%;
+   resize: none;
+}
+.modal .close {
+   height: auto;
+   width: auto;
+   font-size: 26px;
+}
+.modal-header {
+  background-color: #f5f5f5;
+  padding-left: 30px;
+  border-radius: 6px 6px 0 0;
+}
+.modal-body {
+  padding: 0px 30px 10px 30px;
+  text-align: left;
+  max-height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  /* background: var(--primary-gradient); */
+}
+.modal-footer {
+  text-align: left;
+  padding-left: 30px;
+  background-color: #f5f5f5;
 }
