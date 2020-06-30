@@ -293,10 +293,10 @@ p {
 **********/
 .button, .button:visited, .button:focus {
     display: inline-block;
-    border: 1px solid  var(--on-primary-border);
+    /* border: 1px solid  var(--on-primary-border); */
     color: var(--on-primary);
     /* background-color: transparent; */
-    background-color: var(--primary);;
+    background-color: #52cfde;
     padding: 15px 30px;
     font-size: 17px;
     line-height: auto;
