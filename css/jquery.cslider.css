@@ -86,7 +86,7 @@
     top: 120px;
     font-weight: bold;*/
     color: white;
-    width: 80%;
+    width: 85%;
     top: 60px;
     letter-spacing: -0.3rem;
     line-height: 80px;
@@ -1289,8 +1289,7 @@
     .da-slide p {
         font-size: 14px;
         line-height:16px;
-
-        top:120px;
+        top: 65%;
     }
 
     .da-slide .da-img {
