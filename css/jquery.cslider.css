@@ -5,7 +5,7 @@
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    background: transparent url(../images/Slider.png) repeat-x 0% center; /* Replace with your background image*/
+    background: transparent url(../images/Slider.jpg) repeat-x 0% center; /* Replace with your background image*/
     background-size: auto 100%;
     -webkit-transition: background-position 1s ease-out 0.3s;
     -moz-transition: background-position 1s ease-out 0.3s;
@@ -77,15 +77,21 @@
 .da-slide h2,
 .da-slide h4{
     color: #181A1C;
-    text-transform: uppercase;
     white-space: normal;
     z-index: 10;
 }
 .da-slide h2 {
-    font-size: 33px;
+    /*font-size: 33px;
     width: 50%;
     top: 120px;
-    font-weight: bold;
+    font-weight: bold;*/
+    color: white;
+    width: 80%;
+    top: 60px;
+    letter-spacing: -0.3rem;
+    line-height: 80px;
+    font-weight: 1000;
+    font-size: 90px;
 }
 
 .da-slide h4{
@@ -113,7 +119,7 @@
     /*60%*/
 }
 .da-slide .da-link {
-    top: 340px;
+    top: 410px;
     margin: 0;
     font-size: 18px;
     text-align: center;
@@ -1268,13 +1274,16 @@
 
 @media (max-width: 979px) {
     .da-slide h2 {
-        font-size: 28px;
-         top:40px;
+        font-size: 48px;
+        top: 60px;
+        letter-spacing: 0em;
+        line-height: 1em;
     }
 
      .da-slide h4 {
         font-size: 18px;
         top: 80px;
+        letter-spacing: 0;
     }
 
     .da-slide p {
@@ -1296,15 +1305,15 @@
 
 @media (max-width: 767px) {
     .da-slide h2 {
-        font-size: 20px;
-        top:40px;
+        font-size: 30px;
+        top: 50px;
+        letter-spacing: 0em;
+        line-height: 1em;
     }
-
      .da-slide h4 {
         font-size: 16px;
         top:80px;
     }
-
     .da-slide p {
         display:none;
     }
@@ -1321,14 +1330,19 @@
 
 @media (max-width: 480px) {
     .da-slide h2 {
-        font-size: 16px;
-        top:30px;
+        width: 70%;
+        font-size: 25px;
+        top: 50px;
+        letter-spacing: 0em;
+        line-height: 1em;
     }
     .da-slide h4{
-        font-size: 14px;
+        font-size: 20px;
         top: 70px;
     }
-
+    .da-dots {
+        display: none;
+    }
     .da-slide .da-img {
         display:none;
     }
