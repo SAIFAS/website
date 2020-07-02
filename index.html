@@ -1348,7 +1348,51 @@
                         <div class="highlighted-box center">
                             <h1>We're Hiring</h1>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ullamcorper suscipit lobortis nisl ut aliquip consequat. I learned that we can do anything, but we can't do everything...</p>
-                            <button class="button button-sp">Join Us</button>
+                            <button class="button button-sp" data-toggle="modal" data-target="#joinUsModalForm">Join Us</button>
+                        </div>
+
+                        <div class="modal fade" id="joinUsModalForm" tabindex="-1" role="dialog" aria-labelledby="joinUsModalFormTitle" aria-hidden="true" style="display: none;">
+                          <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h2 class="modal-title" id="joinUsModalFormTitle">
+                                  Do you want with us?
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </h2>
+                              </div>
+                              <div class="modal-body">
+                                <div class="input-group">
+                                  <h3>Send a request to <a href="">hr@saifas.com</a> or fill out the form</h3>
+                                  <input type="text" placeholder="Your name">
+                                </div>
+                                <div class="input-group">
+                                  <input type="text" placeholder="Phone number">
+                                </div>
+                                <select name="job" class="form-control" placeholder="Choose direction">
+                                  <option>Choose direction</option>
+                                  <option value="Information Architect">Information Architect</option>
+                                  <option value="Web Designer">Web Designer</option>
+                                  <option value="Usability engineer">Usability engineer</option>
+                                  <option value="C++ Developer">C++ Developer</option>
+                                  <option value="Programmer">Programmer</option>
+                                  <option value="Tester">Tester</option>
+                                </select>
+                                <div class="form-group">
+                                  <label for="exampleFormControlFile1">Attach files</label>
+                                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                                </div>
+                                <div class="custom-control custom-checkbox">
+                                  <input type="checkbox" class="custom-control-input" id="userAgreementChecked">
+                                  <label class="custom-control-label" for="userAgreementChecked">I agree with <a href="">user agreement</a></label>
+                                </div>
+                              </div>
+                              <div class="modal-footer">
+                                <button type="submit" class="button button-sp">Send request</button>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -1580,6 +1624,10 @@
                         <div class="input-group">
                           <input type="email" placeholder="E-mail">
                         </div>
+                        <div class="custom-control custom-checkbox">
+                          <input type="checkbox" class="custom-control-input" id="privacyPolicyChecked">
+                          <label class="custom-control-label" for="privacyPolicyChecked">I agree with <a href="">privacy policy</a></label>
+                        </div>
                       </div>
                       <div class="modal-footer">
                         <button type="submit" class="button button-sp">Send request</button>
@@ -1587,10 +1635,8 @@
                     </div>
                   </div>
                 </div>
-
             </div>
         </div>
-
 
         <div id="process" class="section primary-section">
             <div class="triangle"></div>
