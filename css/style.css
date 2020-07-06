@@ -604,7 +604,7 @@ p {
     background: var(--primary);
 }
 .team .thumbnail .mask h2 {
-    margin-top: 70%;
+    margin-top: 60%;
 }
 .team .thumbnail .mask,
 .team .thumbnail .mask h2,
@@ -1582,13 +1582,16 @@ p {
 }
 
 #discount-banner {
+  position: relative;
   background: white;
   color: black;
-  background: url('background/iconsmind3.png'), rgba(255,255,255,0.7);
+  /* background: url('background/iconsmind3.png'), rgba(255,255,255,0.7); */
   background-blend-mode: color;
-}
-#discount-banner {
+  overflow: hidden;
   padding-bottom: 0px;
+}
+#discount-banner .row-fluid {
+  padding-bottom: 50px;
 }
 #discount-banner .button {
   border: 0;
@@ -1597,7 +1600,10 @@ p {
   bottom: 0;
   right: 0;
 }
-#discount-banner .span6 {
+#discount-banner .container {
+  position: relative;
+}
+#discount-banner .span6:last-of-type {
   position: relative;
   padding-bottom: 50px;
 }
@@ -1624,4 +1630,47 @@ p {
     font-size: 40px;
     margin-bottom: 20px;
   }
+}
+
+.pattern-fill {
+  max-width: 100%;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  z-index: 0;
+}
+
+[class^="nova-icon-bg"], [class*=" nova-icon-bg-"] {
+  color: #e8e8e8;
+  font-size: 28px;
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  visibility: hidden;
+  /* -webkit-animation: pulsing 2s infinite;
+  animation: pulsing 3s infinite; */
+}
+
+/* @-webkit-keyframes pulsing {
+  0% {
+    color: #e8e8e8;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: #e8e8e8;
+  }
+} */
+
+#discount-banner-image {
+  opacity: 0;
+}
+#discount-banner-text {
+  opacity: 0;
 }

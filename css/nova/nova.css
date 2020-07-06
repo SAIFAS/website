@@ -9,7 +9,7 @@
     font-style: normal;
 }
 
-[class^="nova-icon-"], [class*=" nova-icon-"] {
+[class^="nova-icon-bg-"], [class^="nova-icon-"], [class*=" nova-icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
     font-family: 'icomoon' !important;
     speak: none;
@@ -24,1053 +24,1053 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.nova-icon-add-circle-1:before {
+.nova-icon-bg-e900:before, .nova-icon-add-circle-1:before {
     content: "\e900";
 }
-.nova-icon-airplane:before {
+.nova-icon-bg-e901:before, .nova-icon-airplane:before {
     content: "\e901";
 }
-.nova-icon-alien:before {
+.nova-icon-bg-e902:before, .nova-icon-alien:before {
     content: "\e902";
 }
-.nova-icon-alien-head:before {
+.nova-icon-bg-e903:before, .nova-icon-alien-head:before {
     content: "\e903";
 }
-.nova-icon-android:before {
+.nova-icon-bg-e904:before, .nova-icon-android:before {
     content: "\e904";
 }
-.nova-icon-atomic-bomb:before {
+.nova-icon-bg-e905:before, .nova-icon-atomic-bomb:before {
     content: "\e905";
 }
-.nova-icon-at-sign:before {
+.nova-icon-bg-e906:before, .nova-icon-at-sign:before {
     content: "\e906";
 }
-.nova-icon-baby:before {
+.nova-icon-bg-e907:before, .nova-icon-baby:before {
     content: "\e907";
 }
-.nova-icon-baby-hanging-toy:before {
+.nova-icon-bg-e908:before, .nova-icon-baby-hanging-toy:before {
     content: "\e908";
 }
-.nova-icon-baby-trolley:before {
+.nova-icon-bg-e909:before, .nova-icon-baby-trolley:before {
     content: "\e909";
 }
-.nova-icon-backpack:before {
+.nova-icon-bg-e90a:before, .nova-icon-backpack:before {
     content: "\e90a";
 }
-.nova-icon-banking-debit-machine:before {
+.nova-icon-bg-e90b:before, .nova-icon-banking-debit-machine:before {
     content: "\e90b";
 }
-.nova-icon-banking-donation-2:before {
+.nova-icon-bg-e90c:before, .nova-icon-banking-donation-2:before {
     content: "\e90c";
 }
-.nova-icon-banking-spendings-1:before {
+.nova-icon-bg-e90d:before, .nova-icon-banking-spendings-1:before {
     content: "\e90d";
 }
-.nova-icon-banking-spendings-2:before {
+.nova-icon-bg-e90e:before, .nova-icon-banking-spendings-2:before {
     content: "\e90e";
 }
-.nova-icon-banking-spendings-3:before {
+.nova-icon-bg-e90f:before, .nova-icon-banking-spendings-3:before {
     content: "\e90f";
 }
-.nova-icon-bank-note:before {
+.nova-icon-bg-e910:before, .nova-icon-bank-note:before {
     content: "\e910";
 }
-.nova-icon-battery-charging-1:before {
+.nova-icon-bg-e911:before, .nova-icon-battery-charging-1:before {
     content: "\e911";
 }
-.nova-icon-battery-high:before {
+.nova-icon-bg-e912:before, .nova-icon-battery-high:before {
     content: "\e912";
 }
-.nova-icon-battery-low:before {
+.nova-icon-bg-e913:before, .nova-icon-battery-low:before {
     content: "\e913";
 }
-.nova-icon-beaker-science:before {
+.nova-icon-bg-e914:before, .nova-icon-beaker-science:before {
     content: "\e914";
 }
-.nova-icon-beauty-hand-soap:before {
+.nova-icon-bg-e915:before, .nova-icon-beauty-hand-soap:before {
     content: "\e915";
 }
-.nova-icon-beauty-lipstick:before {
+.nova-icon-bg-e916:before, .nova-icon-beauty-lipstick:before {
     content: "\e916";
 }
-.nova-icon-bin:before {
+.nova-icon-bg-e917:before, .nova-icon-bin:before {
     content: "\e917";
 }
-.nova-icon-binoculars:before {
+.nova-icon-bg-e918:before, .nova-icon-binoculars:before {
     content: "\e918";
 }
-.nova-icon-bitcoin-cloud:before {
+.nova-icon-bg-e919:before, .nova-icon-bitcoin-cloud:before {
     content: "\e919";
 }
-.nova-icon-bitcoin-laptop:before {
+.nova-icon-bg-e91a:before, .nova-icon-bitcoin-laptop:before {
     content: "\e91a";
 }
-.nova-icon-bitcoin-network:before {
+.nova-icon-bg-e91b:before, .nova-icon-bitcoin-network:before {
     content: "\e91b";
 }
-.nova-icon-bitcoin-windows:before {
+.nova-icon-bg-e91c:before, .nova-icon-bitcoin-windows:before {
     content: "\e91c";
 }
-.nova-icon-box-2:before {
+.nova-icon-bg-e91d:before, .nova-icon-box-2:before {
     content: "\e91d";
 }
-.nova-icon-box-add:before {
+.nova-icon-bg-e91e:before, .nova-icon-box-add:before {
     content: "\e91e";
 }
-.nova-icon-box-check:before {
+.nova-icon-bg-e91f:before, .nova-icon-box-check:before {
     content: "\e91f";
 }
-.nova-icon-box-handle-1:before {
+.nova-icon-bg-e920:before, .nova-icon-box-handle-1:before {
     content: "\e920";
 }
-.nova-icon-box-subtract:before {
+.nova-icon-bg-e921:before, .nova-icon-box-subtract:before {
     content: "\e921";
 }
-.nova-icon-building-6:before {
+.nova-icon-bg-e922:before, .nova-icon-building-6:before {
     content: "\e922";
 }
-.nova-icon-building-10:before {
+.nova-icon-bg-e923:before, .nova-icon-building-10:before {
     content: "\e923";
 }
-.nova-icon-building-barn:before {
+.nova-icon-bg-e924:before, .nova-icon-building-barn:before {
     content: "\e924";
 }
-.nova-icon-bus-2:before {
+.nova-icon-bg-e925:before, .nova-icon-bus-2:before {
     content: "\e925";
 }
-.nova-icon-business-briefcase-cash:before {
+.nova-icon-bg-e926:before, .nova-icon-business-briefcase-cash:before {
     content: "\e926";
 }
-.nova-icon-business-whiteboard:before {
+.nova-icon-bg-e927:before, .nova-icon-business-whiteboard:before {
     content: "\e927";
 }
-.nova-icon-calendar-1:before {
+.nova-icon-bg-e928:before, .nova-icon-calendar-1:before {
     content: "\e928";
 }
-.nova-icon-camera-1:before {
+.nova-icon-bg-e929:before, .nova-icon-camera-1:before {
     content: "\e929";
 }
-.nova-icon-camera-live-view-off:before {
+.nova-icon-bg-e92a:before, .nova-icon-camera-live-view-off:before {
     content: "\e92a";
 }
-.nova-icon-car-2:before {
+.nova-icon-bg-e92b:before, .nova-icon-car-2:before {
     content: "\e92b";
 }
-.nova-icon-castle-1:before {
+.nova-icon-bg-e92c:before, .nova-icon-castle-1:before {
     content: "\e92c";
 }
-.nova-icon-cc-camera-1:before {
+.nova-icon-bg-e92d:before, .nova-icon-cc-camera-1:before {
     content: "\e92d";
 }
-.nova-icon-chair-1:before {
+.nova-icon-bg-e92e:before, .nova-icon-chair-1:before {
     content: "\e92e";
 }
-.nova-icon-chat-bubble-square-1:before {
+.nova-icon-bg-e92f:before, .nova-icon-chat-bubble-square-1:before {
     content: "\e92f";
 }
-.nova-icon-chat-bubble-square-add:before {
+.nova-icon-bg-e930:before, .nova-icon-chat-bubble-square-add:before {
     content: "\e930";
 }
-.nova-icon-chat-bubble-square-check:before {
+.nova-icon-bg-e931:before, .nova-icon-chat-bubble-square-check:before {
     content: "\e931";
 }
-.nova-icon-chat-bubble-square-close:before {
+.nova-icon-bg-e932:before, .nova-icon-chat-bubble-square-close:before {
     content: "\e932";
 }
-.nova-icon-chat-bubble-square-smiley:before {
+.nova-icon-bg-e933:before, .nova-icon-chat-bubble-square-smiley:before {
     content: "\e933";
 }
-.nova-icon-chat-bubble-square-subtract:before {
+.nova-icon-bg-e934:before, .nova-icon-chat-bubble-square-subtract:before {
     content: "\e934";
 }
-.nova-icon-check-box:before {
+.nova-icon-bg-e935:before, .nova-icon-check-box:before {
     content: "\e935";
 }
-.nova-icon-chef-1:before {
+.nova-icon-bg-e936:before, .nova-icon-chef-1:before {
     content: "\e936";
 }
-.nova-icon-chef-hat:before {
+.nova-icon-bg-e937:before, .nova-icon-chef-hat:before {
     content: "\e937";
 }
-.nova-icon-close:before {
+.nova-icon-bg-e938:before, .nova-icon-close:before {
     content: "\e938";
 }
-.nova-icon-cloud:before {
+.nova-icon-bg-e939:before, .nova-icon-cloud:before {
     content: "\e939";
 }
-.nova-icon-cloud-harddisk-1:before {
+.nova-icon-bg-e93a:before, .nova-icon-cloud-harddisk-1:before {
     content: "\e93a";
 }
-.nova-icon-coffee-mug:before {
+.nova-icon-bg-e93b:before, .nova-icon-coffee-mug:before {
     content: "\e93b";
 }
-.nova-icon-cog-box:before {
+.nova-icon-bg-e93c:before, .nova-icon-cog-box:before {
     content: "\e93c";
 }
-.nova-icon-coin-purse-1:before {
+.nova-icon-bg-e93d:before, .nova-icon-coin-purse-1:before {
     content: "\e93d";
 }
-.nova-icon-coin-stack-1:before {
+.nova-icon-bg-e93e:before, .nova-icon-coin-stack-1:before {
     content: "\e93e";
 }
-.nova-icon-color-palette:before {
+.nova-icon-bg-e93f:before, .nova-icon-color-palette:before {
     content: "\e93f";
 }
-.nova-icon-computer-personal-1:before {
+.nova-icon-bg-e940:before, .nova-icon-computer-personal-1:before {
     content: "\e940";
 }
-.nova-icon-computer-screen-1:before {
-    content: "\e941";
+.nova-icon-bg-e941:before, .nova-icon-computer-screen-1:before {
+    cnova-icon-bg-ont.k-2:, ent: "\e941";
 }
-.nova-icon-content-book-2:before {
-    content: "\e942";
+.nova-icon-bg-e942:before, .nova-icon-content-book-2:before {
+    cnova-icon-bg-ont.k-6:, ent: "\e942";
 }
-.nova-icon-content-book-6:before {
-    content: "\e943";
+.nova-icon-bg-e943:before, .nova-icon-content-book-6:before {
+    cnova-icon-bg-ont.kmar, ent: "\e943";
 }
-.nova-icon-content-bookmark-4:before {
+.nova-icon-bg-e944:before, .nova-icon-content-bookmark-4:before {
     content: "\e944";
 }
-.nova-icon-couch:before {
+.nova-icon-bg-e945:before, .nova-icon-couch:before {
     content: "\e945";
 }
-.nova-icon-crop-image:before {
+.nova-icon-bg-e946:before, .nova-icon-crop-image:before {
     content: "\e946";
 }
-.nova-icon-cursor-arrow-1:before {
+.nova-icon-bg-e947:before, .nova-icon-cursor-arrow-1:before {
     content: "\e947";
 }
-.nova-icon-cursor-arrow-2:before {
+.nova-icon-bg-e948:before, .nova-icon-cursor-arrow-2:before {
     content: "\e948";
 }
-.nova-icon-cursor-touch-1:before {
+.nova-icon-bg-e949:before, .nova-icon-cursor-touch-1:before {
     content: "\e949";
 }
-.nova-icon-data-download-5:before {
+.nova-icon-bg-e94a:before, .nova-icon-data-download-5:before {
     content: "\e94a";
 }
-.nova-icon-data-upload-5:before {
+.nova-icon-bg-e94b:before, .nova-icon-data-upload-5:before {
     content: "\e94b";
 }
-.nova-icon-devices:before {
+.nova-icon-bg-e94c:before, .nova-icon-devices:before {
     content: "\e94c";
 }
-.nova-icon-dna:before {
+.nova-icon-bg-e94d:before, .nova-icon-dna:before {
     content: "\e94d";
 }
-.nova-icon-download-computer:before {
+.nova-icon-bg-e94e:before, .nova-icon-download-computer:before {
     content: "\e94e";
 }
-.nova-icon-eco-car:before {
+.nova-icon-bg-e94f:before, .nova-icon-eco-car:before {
     content: "\e94f";
 }
-.nova-icon-eco-factory:before {
+.nova-icon-bg-e950:before, .nova-icon-eco-factory:before {
     content: "\e950";
 }
-.nova-icon-eco-field:before {
+.nova-icon-bg-e951:before, .nova-icon-eco-field:before {
     content: "\e951";
 }
-.nova-icon-email-heart:before {
+.nova-icon-bg-e952:before, .nova-icon-email-heart:before {
     content: "\e952";
 }
-.nova-icon-email-inbox:before {
+.nova-icon-bg-e953:before, .nova-icon-email-inbox:before {
     content: "\e953";
 }
-.nova-icon-email-outbox:before {
+.nova-icon-bg-e954:before, .nova-icon-email-outbox:before {
     content: "\e954";
 }
-.nova-icon-email-timeout:before {
+.nova-icon-bg-e955:before, .nova-icon-email-timeout:before {
     content: "\e955";
 }
-.nova-icon-envelope-1:before {
+.nova-icon-bg-e956:before, .nova-icon-envelope-1:before {
     content: "\e956";
 }
-.nova-icon-espresso-machine:before {
+.nova-icon-bg-e957:before, .nova-icon-espresso-machine:before {
     content: "\e957";
 }
-.nova-icon-exposure-level:before {
+.nova-icon-bg-e958:before, .nova-icon-exposure-level:before {
     content: "\e958";
 }
-.nova-icon-female-1:before {
+.nova-icon-bg-e959:before, .nova-icon-female-1:before {
     content: "\e959";
 }
-.nova-icon-fence-caution:before {
+.nova-icon-bg-e95a:before, .nova-icon-fence-caution:before {
     content: "\e95a";
 }
-.nova-icon-file-bookmark:before {
+.nova-icon-bg-e95b:before, .nova-icon-file-bookmark:before {
     content: "\e95b";
 }
-.nova-icon-file-copy:before {
+.nova-icon-bg-e95c:before, .nova-icon-file-copy:before {
     content: "\e95c";
 }
-.nova-icon-file-hand:before {
+.nova-icon-bg-e95d:before, .nova-icon-file-hand:before {
     content: "\e95d";
 }
-.nova-icon-file-landscape-new-1:before {
+.nova-icon-bg-e95e:before, .nova-icon-file-landscape-new-1:before {
     content: "\e95e";
 }
-.nova-icon-file-new-1:before {
+.nova-icon-bg-e95f:before, .nova-icon-file-new-1:before {
     content: "\e95f";
 }
-.nova-icon-file-new-2:before {
+.nova-icon-bg-e960:before, .nova-icon-file-new-2:before {
     content: "\e960";
 }
-.nova-icon-file-notes-document:before {
+.nova-icon-bg-e961:before, .nova-icon-file-notes-document:before {
     content: "\e961";
 }
-.nova-icon-file-notes-new:before {
+.nova-icon-bg-e962:before, .nova-icon-file-notes-new:before {
     content: "\e962";
 }
-.nova-icon-file-office-graph:before {
+.nova-icon-bg-e963:before, .nova-icon-file-office-graph:before {
     content: "\e963";
 }
-.nova-icon-file-office-text:before {
+.nova-icon-bg-e964:before, .nova-icon-file-office-text:before {
     content: "\e964";
 }
-.nova-icon-files-1:before {
+.nova-icon-bg-e965:before, .nova-icon-files-1:before {
     content: "\e965";
 }
-.nova-icon-files-2:before {
+.nova-icon-bg-e966:before, .nova-icon-files-2:before {
     content: "\e966";
 }
-.nova-icon-files-3:before {
+.nova-icon-bg-e967:before, .nova-icon-files-3:before {
     content: "\e967";
 }
-.nova-icon-file-swap:before {
+.nova-icon-bg-e968:before, .nova-icon-file-swap:before {
     content: "\e968";
 }
-.nova-icon-file-tasks-add:before {
+.nova-icon-bg-e969:before, .nova-icon-file-tasks-add:before {
     content: "\e969";
 }
-.nova-icon-file-tasks-checklist:before {
+.nova-icon-bg-e96a:before, .nova-icon-file-tasks-checklist:before {
     content: "\e96a";
 }
-.nova-icon-file-tasks-close:before {
+.nova-icon-bg-e96b:before, .nova-icon-file-tasks-close:before {
     content: "\e96b";
 }
-.nova-icon-file-tasks-subtract:before {
+.nova-icon-bg-e96c:before, .nova-icon-file-tasks-subtract:before {
     content: "\e96c";
 }
-.nova-icon-file-zipped-new:before {
+.nova-icon-bg-e96d:before, .nova-icon-file-zipped-new:before {
     content: "\e96d";
 }
-.nova-icon-file-zipped-vice:before {
+.nova-icon-bg-e96e:before, .nova-icon-file-zipped-vice:before {
     content: "\e96e";
 }
-.nova-icon-fire-extinguisher:before {
+.nova-icon-bg-e96f:before, .nova-icon-fire-extinguisher:before {
     content: "\e96f";
 }
-.nova-icon-fire-lighter:before {
+.nova-icon-bg-e970:before, .nova-icon-fire-lighter:before {
     content: "\e970";
 }
-.nova-icon-flash:before {
+.nova-icon-bg-e971:before, .nova-icon-flash:before {
     content: "\e971";
 }
-.nova-icon-flash-off:before {
+.nova-icon-bg-e972:before, .nova-icon-flash-off:before {
     content: "\e972";
 }
-.nova-icon-folder-add:before {
+.nova-icon-bg-e973:before, .nova-icon-folder-add:before {
     content: "\e973";
 }
-.nova-icon-folder-check:before {
+.nova-icon-bg-e974:before, .nova-icon-folder-check:before {
     content: "\e974";
 }
-.nova-icon-folder-close:before {
+.nova-icon-bg-e975:before, .nova-icon-folder-close:before {
     content: "\e975";
 }
-.nova-icon-folder-subtract:before {
+.nova-icon-bg-e976:before, .nova-icon-folder-subtract:before {
     content: "\e976";
 }
-.nova-icon-food-chicken-drum-stick:before {
+.nova-icon-bg-e977:before, .nova-icon-food-chicken-drum-stick:before {
     content: "\e977";
 }
-.nova-icon-food-double-burger:before {
+.nova-icon-bg-e978:before, .nova-icon-food-double-burger:before {
     content: "\e978";
 }
-.nova-icon-food-icecream-2:before {
+.nova-icon-bg-e979:before, .nova-icon-food-icecream-2:before {
     content: "\e979";
 }
-.nova-icon-food-noodle-2:before {
+.nova-icon-bg-e97a:before, .nova-icon-food-noodle-2:before {
     content: "\e97a";
 }
-.nova-icon-food-plate-knife-fork:before {
+.nova-icon-bg-e97b:before, .nova-icon-food-plate-knife-fork:before {
     content: "\e97b";
 }
-.nova-icon-food-steak:before {
+.nova-icon-bg-e97c:before, .nova-icon-food-steak:before {
     content: "\e97c";
 }
-.nova-icon-glass-cocktail-2:before {
+.nova-icon-bg-e97d:before, .nova-icon-glass-cocktail-2:before {
     content: "\e97d";
 }
-.nova-icon-gold-nuggets:before {
+.nova-icon-bg-e97e:before, .nova-icon-gold-nuggets:before {
     content: "\e97e";
 }
-.nova-icon-graduation-hat:before {
+.nova-icon-bg-e97f:before, .nova-icon-graduation-hat:before {
     content: "\e97f";
 }
-.nova-icon-gramophone:before {
+.nova-icon-bg-e980:before, .nova-icon-gramophone:before {
     content: "\e980";
 }
-.nova-icon-greek-column:before {
+.nova-icon-bg-e981:before, .nova-icon-greek-column:before {
     content: "\e981";
 }
-.nova-icon-hammer-anvil:before {
+.nova-icon-bg-e982:before, .nova-icon-hammer-anvil:before {
     content: "\e982";
 }
-.nova-icon-hand-gun:before {
+.nova-icon-bg-e983:before, .nova-icon-hand-gun:before {
     content: "\e983";
 }
-.nova-icon-hand-remote:before {
+.nova-icon-bg-e984:before, .nova-icon-hand-remote:before {
     content: "\e984";
 }
-.nova-icon-hanging-rope:before {
+.nova-icon-bg-e985:before, .nova-icon-hanging-rope:before {
     content: "\e985";
 }
-.nova-icon-hat-1:before {
+.nova-icon-bg-e986:before, .nova-icon-hat-1:before {
     content: "\e986";
 }
-.nova-icon-hat-magician:before {
+.nova-icon-bg-e987:before, .nova-icon-hat-magician:before {
     content: "\e987";
 }
-.nova-icon-health-ambulance:before {
+.nova-icon-bg-e988:before, .nova-icon-health-ambulance:before {
     content: "\e988";
 }
-.nova-icon-health-graph-1:before {
+.nova-icon-bg-e989:before, .nova-icon-health-graph-1:before {
     content: "\e989";
 }
-.nova-icon-health-heart-pulse:before {
+.nova-icon-bg-e98a:before, .nova-icon-health-heart-pulse:before {
     content: "\e98a";
 }
-.nova-icon-health-hospital-sign-1:before {
+.nova-icon-bg-e98b:before, .nova-icon-health-hospital-sign-1:before {
     content: "\e98b";
 }
-.nova-icon-health-medicine-bottle:before {
+.nova-icon-bg-e98c:before, .nova-icon-health-medicine-bottle:before {
     content: "\e98c";
 }
-.nova-icon-health-prescription-2:before {
+.nova-icon-bg-e98d:before, .nova-icon-health-prescription-2:before {
     content: "\e98d";
 }
-.nova-icon-helicopter:before {
+.nova-icon-bg-e98e:before, .nova-icon-helicopter:before {
     content: "\e98e";
 }
-.nova-icon-hot-air-balloon:before {
+.nova-icon-bg-e98f:before, .nova-icon-hot-air-balloon:before {
     content: "\e98f";
 }
-.nova-icon-hotel-bath-shower:before {
+.nova-icon-bg-e990:before, .nova-icon-hotel-bath-shower:before {
     content: "\e990";
 }
-.nova-icon-hotel-bed-1:before {
+.nova-icon-bg-e991:before, .nova-icon-hotel-bed-1:before {
     content: "\e991";
 }
-.nova-icon-hotel-shower:before {
+.nova-icon-bg-e992:before, .nova-icon-hotel-shower:before {
     content: "\e992";
 }
-.nova-icon-hotel-toilet-seat:before {
+.nova-icon-bg-e993:before, .nova-icon-hotel-toilet-seat:before {
     content: "\e993";
 }
-.nova-icon-hourglass:before {
+.nova-icon-bg-e994:before, .nova-icon-hourglass:before {
     content: "\e994";
 }
-.nova-icon-id-card-1:before {
+.nova-icon-bg-e995:before, .nova-icon-id-card-1:before {
     content: "\e995";
 }
-.nova-icon-inbox:before {
+.nova-icon-bg-e996:before, .nova-icon-inbox:before {
     content: "\e996";
 }
-.nova-icon-keyboard:before {
+.nova-icon-bg-e997:before, .nova-icon-keyboard:before {
     content: "\e997";
 }
-.nova-icon-key-hole-1:before {
+.nova-icon-bg-e998:before, .nova-icon-key-hole-1:before {
     content: "\e998";
 }
-.nova-icon-king:before {
+.nova-icon-bg-e999:before, .nova-icon-king:before {
     content: "\e999";
 }
-.nova-icon-kitchen-blender:before {
+.nova-icon-bg-e99a:before, .nova-icon-kitchen-blender:before {
     content: "\e99a";
 }
-.nova-icon-kitchen-frying-machine:before {
+.nova-icon-bg-e99b:before, .nova-icon-kitchen-frying-machine:before {
     content: "\e99b";
 }
-.nova-icon-kitchen-pan-fry:before {
+.nova-icon-bg-e99c:before, .nova-icon-kitchen-pan-fry:before {
     content: "\e99c";
 }
-.nova-icon-lamp-1:before {
+.nova-icon-bg-e99d:before, .nova-icon-lamp-1:before {
     content: "\e99d";
 }
-.nova-icon-lamp-studio-1:before {
+.nova-icon-bg-e99e:before, .nova-icon-lamp-studio-1:before {
     content: "\e99e";
 }
-.nova-icon-laptop-1:before {
+.nova-icon-bg-e99f:before, .nova-icon-laptop-1:before {
     content: "\e99f";
 }
-.nova-icon-leisure-dj-booth:before {
+.nova-icon-bg-e9a0:before, .nova-icon-leisure-dj-booth:before {
     content: "\e9a0";
 }
-.nova-icon-leisure-magic:before {
+.nova-icon-bg-e9a1:before, .nova-icon-leisure-magic:before {
     content: "\e9a1";
 }
-.nova-icon-leisure-marry-go-round:before {
+.nova-icon-bg-e9a2:before, .nova-icon-leisure-marry-go-round:before {
     content: "\e9a2";
 }
-.nova-icon-leisure-rest:before {
+.nova-icon-bg-e9a3:before, .nova-icon-leisure-rest:before {
     content: "\e9a3";
 }
-.nova-icon-location-gps-on-2:before {
+.nova-icon-bg-e9a4:before, .nova-icon-location-gps-on-2:before {
     content: "\e9a4";
 }
-.nova-icon-location-map-1:before {
+.nova-icon-bg-e9a5:before, .nova-icon-location-map-1:before {
     content: "\e9a5";
 }
-.nova-icon-location-pin-4:before {
+.nova-icon-bg-e9a6:before, .nova-icon-location-pin-4:before {
     content: "\e9a6";
 }
-.nova-icon-location-pin-add-2:before {
+.nova-icon-bg-e9a7:before, .nova-icon-location-pin-add-2:before {
     content: "\e9a7";
 }
-.nova-icon-location-pin-bank-2:before {
+.nova-icon-bg-e9a8:before, .nova-icon-location-pin-bank-2:before {
     content: "\e9a8";
 }
-.nova-icon-location-pin-check-2:before {
+.nova-icon-bg-e9a9:before, .nova-icon-location-pin-check-2:before {
     content: "\e9a9";
 }
-.nova-icon-location-pin-close-2:before {
+.nova-icon-bg-e9aa:before, .nova-icon-location-pin-close-2:before {
     content: "\e9aa";
 }
-.nova-icon-location-pin-skull-2:before {
+.nova-icon-bg-e9ab:before, .nova-icon-location-pin-skull-2:before {
     content: "\e9ab";
 }
-.nova-icon-location-pin-subtract-2:before {
+.nova-icon-bg-e9ac:before, .nova-icon-location-pin-subtract-2:before {
     content: "\e9ac";
 }
-.nova-icon-location-user:before {
+.nova-icon-bg-e9ad:before, .nova-icon-location-user:before {
     content: "\e9ad";
 }
-.nova-icon-lock-1:before {
+.nova-icon-bg-e9ae:before, .nova-icon-lock-1:before {
     content: "\e9ae";
 }
-.nova-icon-lock-unlock-1:before {
+.nova-icon-bg-e9af:before, .nova-icon-lock-unlock-1:before {
     content: "\e9af";
 }
-.nova-icon-login-check:before {
+.nova-icon-bg-e9b0:before, .nova-icon-login-check:before {
     content: "\e9b0";
 }
-.nova-icon-login-lock:before {
+.nova-icon-bg-e9b1:before, .nova-icon-login-lock:before {
     content: "\e9b1";
 }
-.nova-icon-login-wrong:before {
+.nova-icon-bg-e9b2:before, .nova-icon-login-wrong:before {
     content: "\e9b2";
 }
-.nova-icon-mail-refresh-1:before {
+.nova-icon-bg-e9b3:before, .nova-icon-mail-refresh-1:before {
     content: "\e9b3";
 }
-.nova-icon-match-stick:before {
+.nova-icon-bg-e9b4:before, .nova-icon-match-stick:before {
     content: "\e9b4";
 }
-.nova-icon-mobile-phone-audio:before {
+.nova-icon-bg-e9b5:before, .nova-icon-mobile-phone-audio:before {
     content: "\e9b5";
 }
-.nova-icon-mobile-phone-check-1:before {
+.nova-icon-bg-e9b6:before, .nova-icon-mobile-phone-check-1:before {
     content: "\e9b6";
 }
-.nova-icon-mobile-phone-close-1:before {
+.nova-icon-bg-e9b7:before, .nova-icon-mobile-phone-close-1:before {
     content: "\e9b7";
 }
-.nova-icon-mobile-phone-off:before {
+.nova-icon-bg-e9b8:before, .nova-icon-mobile-phone-off:before {
     content: "\e9b8";
 }
-.nova-icon-monster-truck-1:before {
+.nova-icon-bg-e9b9:before, .nova-icon-monster-truck-1:before {
     content: "\e9b9";
 }
-.nova-icon-motorcycle-1:before {
+.nova-icon-bg-e9ba:before, .nova-icon-motorcycle-1:before {
     content: "\e9ba";
 }
-.nova-icon-motorcycle-2:before {
+.nova-icon-bg-e9bb:before, .nova-icon-motorcycle-2:before {
     content: "\e9bb";
 }
-.nova-icon-music-note-1:before {
+.nova-icon-bg-e9bc:before, .nova-icon-music-note-1:before {
     content: "\e9bc";
 }
-.nova-icon-nature-flower-1:before {
+.nova-icon-bg-e9bd:before, .nova-icon-nature-flower-1:before {
     content: "\e9bd";
 }
-.nova-icon-nature-plant-1:before {
+.nova-icon-bg-e9be:before, .nova-icon-nature-plant-1:before {
     content: "\e9be";
 }
-.nova-icon-navigation-before-1:before {
+.nova-icon-bg-e9bf:before, .nova-icon-navigation-before-1:before {
     content: "\e9bf";
 }
-.nova-icon-navigation-next-1:before {
+.nova-icon-bg-e9c0:before, .nova-icon-navigation-next-1:before {
     content: "\e9c0";
 }
-.nova-icon-network-business:before {
+.nova-icon-bg-e9c1:before, .nova-icon-network-business:before {
     content: "\e9c1";
 }
-.nova-icon-network-laptop:before {
+.nova-icon-bg-e9c2:before, .nova-icon-network-laptop:before {
     content: "\e9c2";
 }
-.nova-icon-nuclear-power-plant:before {
+.nova-icon-bg-e9c3:before, .nova-icon-nuclear-power-plant:before {
     content: "\e9c3";
 }
-.nova-icon-operator-male:before {
+.nova-icon-bg-e9c4:before, .nova-icon-operator-male:before {
     content: "\e9c4";
 }
-.nova-icon-organization-hierarchy-3:before {
+.nova-icon-bg-e9c5:before, .nova-icon-organization-hierarchy-3:before {
     content: "\e9c5";
 }
-.nova-icon-origami-paper-bird:before {
+.nova-icon-bg-e9c6:before, .nova-icon-origami-paper-bird:before {
     content: "\e9c6";
 }
-.nova-icon-outbox:before {
+.nova-icon-bg-e9c7:before, .nova-icon-outbox:before {
     content: "\e9c7";
 }
-.nova-icon-paint-brush-1:before {
+.nova-icon-bg-e9c8:before, .nova-icon-paint-brush-1:before {
     content: "\e9c8";
 }
-.nova-icon-paper-pin:before {
+.nova-icon-bg-e9c9:before, .nova-icon-paper-pin:before {
     content: "\e9c9";
 }
-.nova-icon-paperplane:before {
+.nova-icon-bg-e9ca:before, .nova-icon-paperplane:before {
     content: "\e9ca";
 }
-.nova-icon-pencil-2:before {
+.nova-icon-bg-e9cb:before, .nova-icon-pencil-2:before {
     content: "\e9cb";
 }
-.nova-icon-pencil-ruler:before {
+.nova-icon-bg-e9cc:before, .nova-icon-pencil-ruler:before {
     content: "\e9cc";
 }
-.nova-icon-pen-tablet:before {
+.nova-icon-bg-e9cd:before, .nova-icon-pen-tablet:before {
     content: "\e9cd";
 }
-.nova-icon-phone-incoming:before {
+.nova-icon-bg-e9ce:before, .nova-icon-phone-incoming:before {
     content: "\e9ce";
 }
-.nova-icon-phone-outgoing:before {
+.nova-icon-bg-e9cf:before, .nova-icon-phone-outgoing:before {
     content: "\e9cf";
 }
-.nova-icon-photo-landscape:before {
+.nova-icon-bg-e9d0:before, .nova-icon-photo-landscape:before {
     content: "\e9d0";
 }
-.nova-icon-photo-portrait:before {
+.nova-icon-bg-e9d1:before, .nova-icon-photo-portrait:before {
     content: "\e9d1";
 }
-.nova-icon-picture-layer-1:before {
+.nova-icon-bg-e9d2:before, .nova-icon-picture-layer-1:before {
     content: "\e9d2";
 }
-.nova-icon-pin-2:before {
+.nova-icon-bg-e9d3:before, .nova-icon-pin-2:before {
     content: "\e9d3";
 }
-.nova-icon-places-christ-the-redeemer:before {
+.nova-icon-bg-e9d4:before, .nova-icon-places-christ-the-redeemer:before {
     content: "\e9d4";
 }
-.nova-icon-places-colosseum:before {
+.nova-icon-bg-e9d5:before, .nova-icon-places-colosseum:before {
     content: "\e9d5";
 }
-.nova-icon-places-eiffel-tower:before {
+.nova-icon-bg-e9d6:before, .nova-icon-places-eiffel-tower:before {
     content: "\e9d6";
 }
-.nova-icon-places-home-3:before {
+.nova-icon-bg-e9d7:before, .nova-icon-places-home-3:before {
     content: "\e9d7";
 }
-.nova-icon-places-home-4:before {
+.nova-icon-bg-e9d8:before, .nova-icon-places-home-4:before {
     content: "\e9d8";
 }
-.nova-icon-places-taj-mahal:before {
+.nova-icon-bg-e9d9:before, .nova-icon-places-taj-mahal:before {
     content: "\e9d9";
 }
-.nova-icon-places-warehouse-1:before {
+.nova-icon-bg-e9da:before, .nova-icon-places-warehouse-1:before {
     content: "\e9da";
 }
-.nova-icon-places-water-well:before {
+.nova-icon-bg-e9db:before, .nova-icon-places-water-well:before {
     content: "\e9db";
 }
-.nova-icon-pocket-knife:before {
+.nova-icon-bg-e9dc:before, .nova-icon-pocket-knife:before {
     content: "\e9dc";
 }
-.nova-icon-police-officer-1:before {
+.nova-icon-bg-e9dd:before, .nova-icon-police-officer-1:before {
     content: "\e9dd";
 }
-.nova-icon-polo-shirt:before {
+.nova-icon-bg-e9de:before, .nova-icon-polo-shirt:before {
     content: "\e9de";
 }
-.nova-icon-projector:before {
+.nova-icon-bg-e9df:before, .nova-icon-projector:before {
     content: "\e9df";
 }
-.nova-icon-quill:before {
+.nova-icon-bg-e9e0:before, .nova-icon-quill:before {
     content: "\e9e0";
 }
-.nova-icon-receipt-1:before {
+.nova-icon-bg-e9e1:before, .nova-icon-receipt-1:before {
     content: "\e9e1";
 }
-.nova-icon-rechargable-battery:before {
+.nova-icon-bg-e9e2:before, .nova-icon-rechargable-battery:before {
     content: "\e9e2";
 }
-.nova-icon-register-machine:before {
+.nova-icon-bg-e9e3:before, .nova-icon-register-machine:before {
     content: "\e9e3";
 }
-.nova-icon-remove-circle-1:before {
+.nova-icon-bg-e9e4:before, .nova-icon-remove-circle-1:before {
     content: "\e9e4";
 }
-.nova-icon-rewards-banner-check:before {
+.nova-icon-bg-e9e5:before, .nova-icon-rewards-banner-check:before {
     content: "\e9e5";
 }
-.nova-icon-rewards-gift:before {
+.nova-icon-bg-e9e6:before, .nova-icon-rewards-gift:before {
     content: "\e9e6";
 }
-.nova-icon-rewards-medal-1:before {
+.nova-icon-bg-e9e7:before, .nova-icon-rewards-medal-1:before {
     content: "\e9e7";
 }
-.nova-icon-rewards-pedestal:before {
+.nova-icon-bg-e9e8:before, .nova-icon-rewards-pedestal:before {
     content: "\e9e8";
 }
-.nova-icon-rewards-trophy-5:before {
+.nova-icon-bg-e9e9:before, .nova-icon-rewards-trophy-5:before {
     content: "\e9e9";
 }
-.nova-icon-ring-planet:before {
+.nova-icon-bg-e9ea:before, .nova-icon-ring-planet:before {
     content: "\e9ea";
 }
-.nova-icon-romance-bow:before {
+.nova-icon-bg-e9eb:before, .nova-icon-romance-bow:before {
     content: "\e9eb";
 }
-.nova-icon-romance-love-target:before {
+.nova-icon-bg-e9ec:before, .nova-icon-romance-love-target:before {
     content: "\e9ec";
 }
-.nova-icon-romance-relationship:before {
+.nova-icon-bg-e9ed:before, .nova-icon-romance-relationship:before {
     content: "\e9ed";
 }
-.nova-icon-safe:before {
+.nova-icon-bg-e9ee:before, .nova-icon-safe:before {
     content: "\e9ee";
 }
-.nova-icon-save-water:before {
+.nova-icon-bg-e9ef:before, .nova-icon-save-water:before {
     content: "\e9ef";
 }
-.nova-icon-scissors:before {
+.nova-icon-bg-e9f0:before, .nova-icon-scissors:before {
     content: "\e9f0";
 }
-.nova-icon-send-to-back:before {
+.nova-icon-bg-e9f1:before, .nova-icon-send-to-back:before {
     content: "\e9f1";
 }
-.nova-icon-send-to-front:before {
+.nova-icon-bg-e9f2:before, .nova-icon-send-to-front:before {
     content: "\e9f2";
 }
-.nova-icon-server-2:before {
+.nova-icon-bg-e9f3:before, .nova-icon-server-2:before {
     content: "\e9f3";
 }
-.nova-icon-server-add-1:before {
+.nova-icon-bg-e9f4:before, .nova-icon-server-add-1:before {
     content: "\e9f4";
 }
-.nova-icon-server-bug:before {
+.nova-icon-bg-e9f5:before, .nova-icon-server-bug:before {
     content: "\e9f5";
 }
-.nova-icon-server-check-1:before {
+.nova-icon-bg-e9f6:before, .nova-icon-server-check-1:before {
     content: "\e9f6";
 }
-.nova-icon-server-close-1:before {
+.nova-icon-bg-e9f7:before, .nova-icon-server-close-1:before {
     content: "\e9f7";
 }
-.nova-icon-server-network-1:before {
+.nova-icon-bg-e9f8:before, .nova-icon-server-network-1:before {
     content: "\e9f8";
 }
-.nova-icon-server-subtract-1:before {
+.nova-icon-bg-e9f9:before, .nova-icon-server-subtract-1:before {
     content: "\e9f9";
 }
-.nova-icon-settings-1:before {
+.nova-icon-bg-e9fa:before, .nova-icon-settings-1:before {
     content: "\e9fa";
 }
-.nova-icon-share-megaphone-2:before {
+.nova-icon-bg-e9fb:before, .nova-icon-share-megaphone-2:before {
     content: "\e9fb";
 }
-.nova-icon-share-radar:before {
+.nova-icon-bg-e9fc:before, .nova-icon-share-radar:before {
     content: "\e9fc";
 }
-.nova-icon-share-signal-user:before {
+.nova-icon-bg-e9fd:before, .nova-icon-share-signal-user:before {
     content: "\e9fd";
 }
-.nova-icon-shopping-basket-1:before {
+.nova-icon-bg-e9fe:before, .nova-icon-shopping-basket-1:before {
     content: "\e9fe";
 }
-.nova-icon-shopping-basket-2:before {
+.nova-icon-bg-e9ff:before, .nova-icon-shopping-basket-2:before {
     content: "\e9ff";
 }
-.nova-icon-shopping-basket-add:before {
+.nova-icon-bg-ea00:before, .nova-icon-shopping-basket-add:before {
     content: "\ea00";
 }
-.nova-icon-shopping-basket-check:before {
+.nova-icon-bg-ea01:before, .nova-icon-shopping-basket-check:before {
     content: "\ea01";
 }
-.nova-icon-shopping-basket-close:before {
+.nova-icon-bg-ea02:before, .nova-icon-shopping-basket-close:before {
     content: "\ea02";
 }
-.nova-icon-shopping-basket-subtract:before {
+.nova-icon-bg-ea03:before, .nova-icon-shopping-basket-subtract:before {
     content: "\ea03";
 }
-.nova-icon-sign-elevator:before {
+.nova-icon-bg-ea04:before, .nova-icon-sign-elevator:before {
     content: "\ea04";
 }
-.nova-icon-sign-toilet:before {
+.nova-icon-bg-ea05:before, .nova-icon-sign-toilet:before {
     content: "\ea05";
 }
-.nova-icon-smart-watch-circle-navigation:before {
+.nova-icon-bg-ea06:before, .nova-icon-smart-watch-circle-navigation:before {
     content: "\ea06";
 }
-.nova-icon-smiley-dolar:before {
+.nova-icon-bg-ea07:before, .nova-icon-smiley-dolar:before {
     content: "\ea07";
 }
-.nova-icon-smiley-poker-face:before {
+.nova-icon-bg-ea08:before, .nova-icon-smiley-poker-face:before {
     content: "\ea08";
 }
-.nova-icon-smiley-shy-1:before {
+.nova-icon-bg-ea09:before, .nova-icon-smiley-shy-1:before {
     content: "\ea09";
 }
-.nova-icon-smiley-smile-2:before {
+.nova-icon-bg-ea0a:before, .nova-icon-smiley-smile-2:before {
     content: "\ea0a";
 }
-.nova-icon-smiley-wink:before {
+.nova-icon-bg-ea0b:before, .nova-icon-smiley-wink:before {
     content: "\ea0b";
 }
-.nova-icon-smiley-worry:before {
+.nova-icon-bg-ea0c:before, .nova-icon-smiley-worry:before {
     content: "\ea0c";
 }
-.nova-icon-spa-bamboo:before {
+.nova-icon-bg-ea0d:before, .nova-icon-spa-bamboo:before {
     content: "\ea0d";
 }
-.nova-icon-spa-lotion:before {
+.nova-icon-bg-ea0e:before, .nova-icon-spa-lotion:before {
     content: "\ea0e";
 }
-.nova-icon-spa-lotus-flower:before {
+.nova-icon-bg-ea0f:before, .nova-icon-spa-lotus-flower:before {
     content: "\ea0f";
 }
-.nova-icon-speaker-volume-decrease:before {
+.nova-icon-bg-ea10:before, .nova-icon-speaker-volume-decrease:before {
     content: "\ea10";
 }
-.nova-icon-speaker-volume-high:before {
+.nova-icon-bg-ea11:before, .nova-icon-speaker-volume-high:before {
     content: "\ea11";
 }
-.nova-icon-speaker-volume-increase:before {
+.nova-icon-bg-ea12:before, .nova-icon-speaker-volume-increase:before {
     content: "\ea12";
 }
-.nova-icon-speaker-volume-medium:before {
+.nova-icon-bg-ea13:before, .nova-icon-speaker-volume-medium:before {
     content: "\ea13";
 }
-.nova-icon-speaker-volume-off:before {
+.nova-icon-bg-ea14:before, .nova-icon-speaker-volume-off:before {
     content: "\ea14";
 }
-.nova-icon-sport-basketball:before {
+.nova-icon-bg-ea15:before, .nova-icon-sport-basketball:before {
     content: "\ea15";
 }
-.nova-icon-sport-bowling:before {
+.nova-icon-bg-ea16:before, .nova-icon-sport-bowling:before {
     content: "\ea16";
 }
-.nova-icon-sport-dumbbell-1:before {
+.nova-icon-bg-ea17:before, .nova-icon-sport-dumbbell-1:before {
     content: "\ea17";
 }
-.nova-icon-sport-football-field:before {
+.nova-icon-bg-ea18:before, .nova-icon-sport-football-field:before {
     content: "\ea18";
 }
-.nova-icon-sport-takraw:before {
+.nova-icon-bg-ea19:before, .nova-icon-sport-takraw:before {
     content: "\ea19";
 }
-.nova-icon-spray-bottle:before {
+.nova-icon-bg-ea1a:before, .nova-icon-spray-bottle:before {
     content: "\ea1a";
 }
-.nova-icon-star-constellation:before {
+.nova-icon-bg-ea1b:before, .nova-icon-star-constellation:before {
     content: "\ea1b";
 }
-.nova-icon-subtract-circle-1:before {
+.nova-icon-bg-ea1c:before, .nova-icon-subtract-circle-1:before {
     content: "\ea1c";
 }
-.nova-icon-sunny:before {
+.nova-icon-bg-ea1d:before, .nova-icon-sunny:before {
     content: "\ea1d";
 }
-.nova-icon-switch-left:before {
+.nova-icon-bg-ea1e:before, .nova-icon-switch-left:before {
     content: "\ea1e";
 }
-.nova-icon-switch-right:before {
+.nova-icon-bg-ea1f:before, .nova-icon-switch-right:before {
     content: "\ea1f";
 }
-.nova-icon-synchronize-1:before {
+.nova-icon-bg-ea20:before, .nova-icon-synchronize-1:before {
     content: "\ea20";
 }
-.nova-icon-synchronize-2:before {
+.nova-icon-bg-ea21:before, .nova-icon-synchronize-2:before {
     content: "\ea21";
 }
-.nova-icon-tank:before {
+.nova-icon-bg-ea22:before, .nova-icon-tank:before {
     content: "\ea22";
 }
-.nova-icon-telephone-1:before {
+.nova-icon-bg-ea23:before, .nova-icon-telephone-1:before {
     content: "\ea23";
 }
-.nova-icon-temple-2:before {
+.nova-icon-bg-ea24:before, .nova-icon-temple-2:before {
     content: "\ea24";
 }
-.nova-icon-toilet-roll:before {
+.nova-icon-bg-ea25:before, .nova-icon-toilet-roll:before {
     content: "\ea25";
 }
-.nova-icon-tools-measuring-tape:before {
+.nova-icon-bg-ea26:before, .nova-icon-tools-measuring-tape:before {
     content: "\ea26";
 }
-.nova-icon-tram:before {
+.nova-icon-bg-ea27:before, .nova-icon-tram:before {
     content: "\ea27";
 }
-.nova-icon-travel-bag-1:before {
+.nova-icon-bg-ea28:before, .nova-icon-travel-bag-1:before {
     content: "\ea28";
 }
-.nova-icon-travel-beach:before {
+.nova-icon-bg-ea29:before, .nova-icon-travel-beach:before {
     content: "\ea29";
 }
-.nova-icon-travel-camping:before {
+.nova-icon-bg-ea2a:before, .nova-icon-travel-camping:before {
     content: "\ea2a";
 }
-.nova-icon-travel-flippers:before {
+.nova-icon-bg-ea2b:before, .nova-icon-travel-flippers:before {
     content: "\ea2b";
 }
-.nova-icon-travel-globe:before {
+.nova-icon-bg-ea2c:before, .nova-icon-travel-globe:before {
     content: "\ea2c";
 }
-.nova-icon-treasure-chest-open:before {
+.nova-icon-bg-ea2d:before, .nova-icon-treasure-chest-open:before {
     content: "\ea2d";
 }
-.nova-icon-trolley-box-service:before {
+.nova-icon-bg-ea2e:before, .nova-icon-trolley-box-service:before {
     content: "\ea2e";
 }
-.nova-icon-umbrella-open:before {
+.nova-icon-bg-ea2f:before, .nova-icon-umbrella-open:before {
     content: "\ea2f";
 }
-.nova-icon-undershirt:before {
+.nova-icon-bg-ea30:before, .nova-icon-undershirt:before {
     content: "\ea30";
 }
-.nova-icon-underwear:before {
+.nova-icon-bg-ea31:before, .nova-icon-underwear:before {
     content: "\ea31";
 }
-.nova-icon-upload-computer:before {
+.nova-icon-bg-ea32:before, .nova-icon-upload-computer:before {
     content: "\ea32";
 }
-.nova-icon-user-add:before {
+.nova-icon-bg-ea33:before, .nova-icon-user-add:before {
     content: "\ea33";
 }
-.nova-icon-user-chat-1:before {
+.nova-icon-bg-ea34:before, .nova-icon-user-chat-1:before {
     content: "\ea34";
 }
-.nova-icon-user-check:before {
+.nova-icon-bg-ea35:before, .nova-icon-user-check:before {
     content: "\ea35";
 }
-.nova-icon-user-female:before {
+.nova-icon-bg-ea36:before, .nova-icon-user-female:before {
     content: "\ea36";
 }
-.nova-icon-user-headphone:before {
+.nova-icon-bg-ea37:before, .nova-icon-user-headphone:before {
     content: "\ea37";
 }
-.nova-icon-user-heart:before {
+.nova-icon-bg-ea38:before, .nova-icon-user-heart:before {
     content: "\ea38";
 }
-.nova-icon-user-magnify:before {
+.nova-icon-bg-ea39:before, .nova-icon-user-magnify:before {
     content: "\ea39";
 }
-.nova-icon-user-male:before {
+.nova-icon-bg-ea3a:before, .nova-icon-user-male:before {
     content: "\ea3a";
 }
-.nova-icon-user-subtract:before {
+.nova-icon-bg-ea3b:before, .nova-icon-user-subtract:before {
     content: "\ea3b";
 }
-.nova-icon-vector-circle:before {
+.nova-icon-bg-ea3c:before, .nova-icon-vector-circle:before {
     content: "\ea3c";
 }
-.nova-icon-vector-line:before {
+.nova-icon-bg-ea3d:before, .nova-icon-vector-line:before {
     content: "\ea3d";
 }
-.nova-icon-vector-square-1:before {
+.nova-icon-bg-ea3e:before, .nova-icon-vector-square-1:before {
     content: "\ea3e";
 }
-.nova-icon-vector-triangle:before {
+.nova-icon-bg-ea3f:before, .nova-icon-vector-triangle:before {
     content: "\ea3f";
 }
-.nova-icon-video-call-1:before {
+.nova-icon-bg-ea40:before, .nova-icon-video-call-1:before {
     content: "\ea40";
 }
-.nova-icon-video-call-mobile-phone:before {
+.nova-icon-bg-ea41:before, .nova-icon-video-call-mobile-phone:before {
     content: "\ea41";
 }
-.nova-icon-video-camera-3:before {
+.nova-icon-bg-ea42:before, .nova-icon-video-camera-3:before {
     content: "\ea42";
 }
-.nova-icon-video-clip-3:before {
+.nova-icon-bg-ea43:before, .nova-icon-video-clip-3:before {
     content: "\ea43";
 }
-.nova-icon-video-clip-4:before {
+.nova-icon-bg-ea44:before, .nova-icon-video-clip-4:before {
     content: "\ea44";
 }
-.nova-icon-video-control-eject:before {
+.nova-icon-bg-ea45:before, .nova-icon-video-control-eject:before {
     content: "\ea45";
 }
-.nova-icon-video-control-fast-forward:before {
+.nova-icon-bg-ea46:before, .nova-icon-video-control-fast-forward:before {
     content: "\ea46";
 }
-.nova-icon-video-control-next:before {
+.nova-icon-bg-ea47:before, .nova-icon-video-control-next:before {
     content: "\ea47";
 }
-.nova-icon-video-control-pause:before {
+.nova-icon-bg-ea48:before, .nova-icon-video-control-pause:before {
     content: "\ea48";
 }
-.nova-icon-video-control-play:before {
+.nova-icon-bg-ea49:before, .nova-icon-video-control-play:before {
     content: "\ea49";
 }
-.nova-icon-video-control-previous:before {
+.nova-icon-bg-ea4a:before, .nova-icon-video-control-previous:before {
     content: "\ea4a";
 }
-.nova-icon-video-control-record:before {
+.nova-icon-bg-ea4b:before, .nova-icon-video-control-record:before {
     content: "\ea4b";
 }
-.nova-icon-video-control-rewind:before {
+.nova-icon-bg-ea4c:before, .nova-icon-video-control-rewind:before {
     content: "\ea4c";
 }
-.nova-icon-video-control-stop:before {
+.nova-icon-bg-ea4d:before, .nova-icon-video-control-stop:before {
     content: "\ea4d";
 }
-.nova-icon-video-games-gameboy:before {
+.nova-icon-bg-ea4e:before, .nova-icon-video-games-gameboy:before {
     content: "\ea4e";
 }
-.nova-icon-video-games-pacman:before {
+.nova-icon-bg-ea4f:before, .nova-icon-video-games-pacman:before {
     content: "\ea4f";
 }
-.nova-icon-video-games-pacman-ghost:before {
+.nova-icon-bg-ea50:before, .nova-icon-video-games-pacman-ghost:before {
     content: "\ea50";
 }
-.nova-icon-volcanoe:before {
+.nova-icon-bg-ea51:before, .nova-icon-volcanoe:before {
     content: "\ea51";
 }
-.nova-icon-vote-heart-circle-1:before {
+.nova-icon-bg-ea52:before, .nova-icon-vote-heart-circle-1:before {
     content: "\ea52";
 }
-.nova-icon-vote-plus-one:before {
+.nova-icon-bg-ea53:before, .nova-icon-vote-plus-one:before {
     content: "\ea53";
 }
-.nova-icon-vote-thumbs-down:before {
+.nova-icon-bg-ea54:before, .nova-icon-vote-thumbs-down:before {
     content: "\ea54";
 }
-.nova-icon-vote-thumbs-up:before {
+.nova-icon-bg-ea55:before, .nova-icon-vote-thumbs-up:before {
     content: "\ea55";
 }
-.nova-icon-wallet:before {
+.nova-icon-bg-ea56:before, .nova-icon-wallet:before {
     content: "\ea56";
 }
-.nova-icon-warehouse-box:before {
+.nova-icon-bg-ea57:before, .nova-icon-warehouse-box:before {
     content: "\ea57";
 }
-.nova-icon-water-droplet:before {
+.nova-icon-bg-ea58:before, .nova-icon-water-droplet:before {
     content: "\ea58";
 }
-.nova-icon-water-tap:before {
+.nova-icon-bg-ea59:before, .nova-icon-water-tap:before {
     content: "\ea59";
 }
-.nova-icon-water-tower:before {
+.nova-icon-bg-ea5a:before, .nova-icon-water-tower:before {
     content: "\ea5a";
 }
-.nova-icon-wind-flag:before {
+.nova-icon-bg-ea5b:before, .nova-icon-wind-flag:before {
     content: "\ea5b";
 }
-.nova-icon-window:before {
+.nova-icon-bg-ea5c:before, .nova-icon-window:before {
     content: "\ea5c";
 }
-.nova-icon-window-programming:before {
+.nova-icon-bg-ea5d:before, .nova-icon-window-programming:before {
     content: "\ea5d";
 }

@@ -7,7 +7,7 @@
  * License: http://graphberry.com/pages/license
  */
 
- $(window).load(function() {
+$(window).load(function() {
   // will first fade out the loading animation
   $("#loader").fadeOut("slow", function(){
     // will fade out the whole DIV that covers the website.
@@ -454,9 +454,9 @@ Sand mail
 /* ------------------------------------------------------
  * Stat Counter
  * ------------------------------------------------------ */
- var statSection = $("#stats"),
-     stats = $(".stat-count");
- statSection.waypoint({
+var statSection = $("#stats"),
+    stats = $(".stat-count");
+statSection.waypoint({
   handler: function(direction) {
       if (direction === "down") {
        stats.each(function () {
@@ -472,6 +472,35 @@ Sand mail
       }
       // trigger once only
       this.destroy();
+  },
+  offset: "90%"
+});
+
+function getRandomInt(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var patternFillSection = $('.pattern-fill')
+
+patternFillSection.waypoint({
+  handler: function(direction) {
+    if ($('.pattern-fill').length > 0) {
+      for (let i = 0; i < 700; i++) {
+        $('.pattern-fill').append(`<i class="nova-icon-bg nova-icon-bg-${getRandomInt(59648,59700).toString(16)}">`)
+        //from 59648(e900) to 59997(ea5d)
+      }
+      $("#discount-banner-image").addClass("animated fadeInLeftBig")
+      $("#discount-banner-text").addClass("animated fadeInRightBig")
+      $('.nova-icon-bg').each(function(i, elem) {
+        // $(elem).css('animation-delay', `${getRandomInt(0,3)}s`)
+        // $(elem).css('animation-duration', `${getRandomInt(0,3)}s`)
+        setTimeout(function() {
+          $(elem).css('visibility', 'visible');
+        }, getRandomInt(1000, 2500));
+      })
+    }
   },
   offset: "90%"
 });
